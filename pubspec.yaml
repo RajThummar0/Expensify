@@ -1,0 +1,51 @@
+name: expensify
+description: A production-level Expense Split app (Splitwise/Expensify style)
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^3.1.0
+  fl_chart: ^1.1.1
+  image_picker: ^1.0.7
+  google_mlkit_text_recognition: ^0.15.1
+  provider: ^6.1.1
+  intl: ^0.20.2
+  path_provider: ^2.1.2
+  uuid: ^4.2.2
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  google_fonts: ^6.2.1
+  pdf: ^3.10.7
+  printing: ^5.12.0
+  share_plus: ^10.0.2
+  url_launcher: ^6.3.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_contacts: ^1.1.9
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1  # 👈 Added for app icon
+
+# 👇 Launcher Icon Configuration (ADDED)
+flutter_launcher_icons:
+  android: true
+  #ios: true
+  image_path: "assets/images/logo.png"
+  adaptive_icon_foreground: "assets/images/logo.png"
+  adaptive_icon_background: "#000000"  # Best for your dark logo
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
