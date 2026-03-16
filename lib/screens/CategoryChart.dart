@@ -52,7 +52,6 @@ class CategoryChart extends StatelessWidget {
                     ),
                   ),
 
-                  // 🎯 CENTER VALUE (MAIN FIX)
                   Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
