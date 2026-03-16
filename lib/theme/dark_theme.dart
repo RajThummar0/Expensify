@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:expensify/theme/app_theme.dart';
-
-
-
 class DarkTheme {
   static ThemeData get darkTheme {
     return ThemeData(
@@ -24,7 +21,7 @@ class DarkTheme {
         centerTitle: true,
       ),
       cardTheme: CardThemeData(
-        elevation: 2,
+        elevation: 3,
         color: const Color(0xFF1E1E1E),
         shadowColor: Colors.black.withOpacity(0.3),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
